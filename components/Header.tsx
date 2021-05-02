@@ -12,6 +12,9 @@ function Header() {
                     {(router.pathname !== "/" ? (
                         <Link href="/"><a className="toHome">На головну</a></Link>
                     ) : null)}
+                    {(router.pathname !== "/" && router.pathname !== "/articles" && router.pathname !== "/about_me" ? (
+                        <Link href="/articles"><a className="toArticles">До каталогу</a></Link>
+                    ) : null)}
                 </div>
                 <div className="student">
                     <p>Виконав студент групи 33ПОкт</p>

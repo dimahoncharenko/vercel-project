@@ -8,24 +8,16 @@ function IndexPage() {
             <Header>
                 <title>Головна сторінка</title>
             </Header>
-            <h1 className="heading">Таблиця контенту</h1>
-            <ul className="list vertical centered">
-                <li>
-                    <Link href="/preview"><a>ІТ у професійній діяльності вчителя</a></Link>
-                </li>
-                <li>
-                    <Link href="/stages"><a>Етапи розвитку ІТ</a></Link>
-                </li>
-                <li>
-                    <Link href="/competence"><a>ІТ-компетентність</a></Link>
-                </li>
-                <li>
-                    <Link href="/benefits"><a>Переваги використання ІТ в освіті</a></Link>
-                </li>
-                <li>
-                    <Link href="/shortcomings"><a>Існуючі недоліки та проблеми застосування ІТ</a></Link>
-                </li>
-            </ul>
+            <div className="cards">
+                <div className="card">
+                    <img src="/reading.svg" className="icon"/>
+                    <Link href="/articles"><a className="card__link">Каталог статей</a></Link>
+                </div>
+                <div className="card">
+                    <img src="/writer.svg" className="icon"/>
+                    <Link href="/about_me"><a className="card__link">Про автора</a></Link>
+                </div>
+            </div>
         </>
     );
 }

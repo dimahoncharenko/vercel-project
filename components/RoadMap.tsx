@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { Headings } from "../utils/data";
+import { Headings } from "../utils/it_in_edu";
 
 type Props = {
     array: Headings,

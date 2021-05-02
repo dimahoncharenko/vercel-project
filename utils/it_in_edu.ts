@@ -1,23 +1,23 @@
 export let Headings = [
     {
         heading: "ІТ у професійній діяльності вчителя",
-        href: "/preview"
+        href: "/articles/IT_in_education/preview"
     },
     {
         heading: "Етапи розвитку ІТ",
-        href: "/stages"
+        href: "/articles/IT_in_education/stages"
     },
     {
         heading: "ІТ-компетентність",
-        href: "/competence"
+        href: "/articles/IT_in_education/competence"
     },
     {
         heading: "Переваги використання ІТ в освіті",
-        href: "/benefits"
+        href: "/articles/IT_in_education/benefits"
     },
     {
         heading: "Існуючі недоліки та проблеми застосування ІТ",
-        href: "/shortcomings"
+        href: "/articles/IT_in_education/shortcomings"
     }
 ];
 
